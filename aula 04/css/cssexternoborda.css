@@ -1,0 +1,19 @@
+#p1{
+	border-top-style: dotted;/*pontilhado*/
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	
+}
+#p2{
+	border-top-style: dashed;
+	border-right-style: solid;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+}
+#ca {
+	border-top-style: groove;
+	border-right-style: solid;
+	border-bottom-style: groove;
+	border-left-style: solid;
+}

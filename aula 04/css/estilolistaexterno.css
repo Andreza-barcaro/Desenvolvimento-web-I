@@ -1,0 +1,58 @@
+.menu a{
+	
+	background:#FF6666;
+	color:#0000FF;
+	padding:1% 2%;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+ol.lroman{
+	list-style-type: upper-roman;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+ol.lalpha{
+	list-style-type: lower-alpha;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+ol.ualpha{
+	/*maiuscula*/
+	list-style-type: upper-alpha;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul , ol, p, dl{
+	color: blue;
+	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2, h3{
+	
+	Color: red;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	
+}
+/*link quando passo o mouse em cima*/
+.menu a:hover{
+	background: #FF9966;
+	color: yellow;
+}
+/*quando clicado*/
+.menu a:active{
+	color: green;	
+}
+
+/*quando visitado fica em vermelho*/
+/*.menu a:visited{
+	color: red;	
+}*/
+
+/*não visitado*/
+.menu a:link{
+	color: blue;	
+}

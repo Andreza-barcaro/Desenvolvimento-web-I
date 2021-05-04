@@ -1,0 +1,58 @@
+#p1{
+	color: green;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+}
+
+.center{
+	text-align: center;
+	color:green;
+	text-transform: capitalize;
+	font-size: 2em;
+}
+
+.percentual{
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	color:green;
+	text-transform: capitalize;
+}
+.em{
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	color:green;
+}
+.pt{
+	font-size: 14pt;
+	font-family: 'Roboto', sans-serif;
+	color:green;
+}
+.px{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: green;
+}
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	font-family: 'Girassol', cursive;
+    font-family: 'Roboto', sans-serif;
+	color:green;
+}
+
+a{
+	/*remove o sublinhado dos links*/
+	text-decoration: none;
+}
+
+h3{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+body{
+	
+	background-image: url(https://tse4.mm.bing.net/th?id=OIP.vRZ7qYFiEp-gvpKL4uIy7wHaEt&pid=Api&P=0&w=243&h=155);
+	
+}
