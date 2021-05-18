@@ -1,0 +1,56 @@
+body{
+	background-color:hsl(0,0% 100%);
+	color:rgb(0,0,0);
+	font:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+section{
+	width: 100%;
+	margin: auto;
+}
+header{
+	width:100%;
+	height:80px;
+	background:#00eeff;
+	float:right;
+}
+aside{
+	width:200px;
+	height:550px;
+	background:#f07474;
+	float:left;
+}
+.amarelo{
+	height:200px;
+	width: 200px;
+	margin:20px;
+	background-color:#f4f653;
+	float:left;
+}
+
+@media screen and(max-width:480px){
+	header{
+		height:100px;
+		text-align: center;
+	}
+	aside{
+		width:100%;
+		height:auto;
+		float:none;
+		
+	}
+	ul{
+		height:50px;
+		margin:0 50px;
+		displa: flex;
+	}
+	main{
+		width:100%;
+		height:auto;
+	}
+	.amarelo{
+		float:none;
+		width;
+	}
+}
