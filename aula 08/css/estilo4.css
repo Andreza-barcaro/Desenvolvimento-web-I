@@ -1,0 +1,9 @@
+p{
+	background-color:#F4A460;
+	width:300px;
+	padding:25px;
+	border:1px solid black;
+	margin:25px;
+	outline:5px dotted red;
+	background-image:url(../img/fundo.jpg);
+}

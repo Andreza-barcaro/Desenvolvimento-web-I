@@ -1,0 +1,16 @@
+table,td,th{
+	color:blue;
+	text-align:center;
+	border-color:blue;
+	border:1px solid;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+th{
+	height:50px;
+}
+body {
+    background-color: lightblue;
+}
