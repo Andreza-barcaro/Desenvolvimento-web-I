@@ -1,0 +1,28 @@
+
+
+
+.jumbotron {
+  margin-bottom: 0;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  background-color:#ADD8E6;
+}
+.minhaimagem{
+  width: 100%;
+}
+.rodape{
+  height: 50px;
+  background-color: #222;
+  color: white; 
+  text-align: center;
+  line-height: 50px;
+}
+img{
+	margin-top: 10px;
+
+}
+h2{
+	color:black;
+	text-align:center;
+}
+
