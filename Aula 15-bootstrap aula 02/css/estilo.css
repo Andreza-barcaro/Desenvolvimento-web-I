@@ -1,0 +1,23 @@
+*body{
+	margin:0px;
+	padding:0px;
+}
+
+.porcento{
+	width:100%;
+	height:auto;
+	background-color:#363636;
+}
+
+.nav a:hover{
+	color:#CC0000;
+}
+.fa-facebook{
+	color:white;
+}
+.fa-instagram{
+	color:white;
+}
+.fa-linkedin{
+	color:white;
+}
