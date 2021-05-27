@@ -1,0 +1,41 @@
+/* Fix link outlines after click */
+button:focus, button:hover, button:active {
+	outline: 0;
+	
+}
+h3{
+	color: purple;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 9;
+}
+header{
+	text-align:justify;
+	height:auto;
+	width:auto;
+	
+}
+.page-footer{
+
+		width:auto;
+		height:auto;
+		background-color: pink;
+		text-weight: 700;
+		text-color:black;
+		position: relative;
+
+}
+.topo-fluid{
+	height:auto;
+	
+}
+b, h4{
+	color: purple;
+}
+body{
+	width:auto;
+	margin:0;
+	 text-align:justify;
+	 
+	
+}
