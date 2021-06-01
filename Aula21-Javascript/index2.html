@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS - Trabalhando com JavaScript</title>
+    <script type="text/javascript">
+      window.alert('Olá isso é javascript');
+      //Comentário Linha - digita a vontade
+      /*
+        Criando uma função para Alterar
+        as propriedades da página - fundo e cor de fonte.
+      */
+      function pretoBranco() {
+        window.document.bgColor = '#000';
+        window.document.fgColor = '#fff';
+      }
+
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1> Bem Vindo JS - JavaScript! </h1>
+      <hr>
+      <h2>Exemplo - Botão Fechar Janela: </h2>
+      <p>
+        Este botão irá fechar a janela do navegador. A guia específica do site.
+      </p>
+      <button type="button" name="fechar" onClick="window.close()"> Fechar Janela</button>
+
+      <h2>Exemplo - Botão Imprimir: </h2>
+      <p>
+        Este botão irá configurar a página para impressão e abrir a configuração da impressora para imprimir o documento em questão.
+      </p>
+      <button type="button" name="imprimir" onClick="print()">Imprimir Página</button>
+
+      <h2>Exemplo - Botão Abrir URL: </h2>
+      <p>
+        Este botão possibilita abrir uma nova guia com a página definida na url.
+      </p>
+      <button type="button" name="abrirurl" onClick="window.open('http://www.google.com.br')">Abrir Google</button>
+
+      <h2>Exemplo - Botão para Alterar a cor do Fundo: </h2>
+      <p>
+        Este botão possibilita alterar a cor do fundo da página.
+      </p>
+      <button type="button" name="alteracorfundo" onClick="window.document.bgColor='red'">Alterar Cor Do Fundo </button>
+
+      <h2>Exemplo - Botão para Alterar a cor da Fonte: </h2>
+      <p>
+        Este botão possibilita alterar a cor da letra dentro da página Web.
+      </p>
+      <button type="button" name="alteracordafonte" onClick="document.fgColor='green'">Alterar Cor Da Fonte</button>
+
+      <h2>Exemplo - Botão para chamar uma função que altere fundo e letra ao mesmo tempo. </h2>
+      <p>
+        Este botão irá invocar (chamar) - uma função que iremos criar para alterar mais de uma propriedade ao mesmo tempo.
+      </p>
+      <button type="button" name="pretoebranco" onClick="pretoBranco()">Preto e Branco</button>
+
+      <h2>Exemplo - Botão Confirmar: </h2>
+      <p>
+        Este botão invoca um método que possui um retorno booleano - retornar Sim ou Não.
+      </p>
+      <button type="button" name="confirma" onClick="window.confirm('Deseja continuar?')">Botão Confirmar</button>
+    </main>
+  </body>
+</html>
