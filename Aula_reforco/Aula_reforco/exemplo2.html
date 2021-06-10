@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Js</title>
+<link href="css/bootstrap-reboot.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.css" rel="stylesheet">
+
+<!--exemplo de declaração de Js com arquivo externo-->
+<script src="js/bootstrap.js"></script>
+
+<!--exemplo de declaração de Js com sript interno dentro da tag head-->
+<script>
+	function abrirJanela() {
+		alert("Olá, Boa tarde povo");
+		}
+</script>
+</head>
+<body onload="abrirJanela()">
+
+	<section class="container">
+	<h1>Exemplos de Js</h1>
+	<hr>
+	<div>
+	<h2>Executando a função de Abrir janela</h2>
+	<!--declarando o script no corpo da página-->
+	<script>
+		function janela(){
+			alert("Estamos agora usando um botão para abrir uma janela");
+			}
+	</script>
+	<input type="submit" class="btn" value="Abrir Janela" onclick="janela()">
+	
+	</div>
+	<div>
+	<h2>Exemplo 2 - Troca de Imagem por meio de método e eventos</h2>
+	<!--exemplo de declaração "inline" do Js-->
+		<input type="submit" onclick="document.getElementById('minhaImagem').src='img/pic_bulbon.gif'" value="Acender a luz">
+		
+		<img id="minhaImagem" src="img/pic_bulboff.gif" style="width:100px;">
+	
+		<input type="submit" onclick="document.getElementById('minhaImagem').src='img/pic_bulboff.gif'" value="Desligar a luz">
+		<hr>
+		<!--método de impressão-->
+		<input type="submit" value="Imprimir Página" class="btn" onclick="window.print()">
+	</div>
+	<div>
+		<h2>Métodos de exibição do Js</h2>
+		<hr>
+		
+		<script>
+			document.write("Escrevendo por um método no arquivo HTML");				
+		</script>
+		<hr>
+		<p>O resultato da operação, (2346789 + 56) / 2 é:</p>
+		<script>
+		document.write((2346789 + 56) / 2);	
+		</script>
+		<p>O resultato da operação, 300 * 200) + 4 / 2 é:</p>
+		<script>
+		document.write((300 * 200) + 4 / 2);	
+		</script>
+	</div>
+	<div>
+		<h2>Métodos de exibição do Js</h2>
+		<h3>Escrever no domumento HTML</h3>
+	<hr>
+	<!--local onde o texto que será escrito por Js será exibido-->
+		<p id="texto1" style="color:red; font-weight:bold;"></p>
+		<p id="texto2"></p>
+	<!--função com método innerHTML-->
+	<script>
+		function textos() {
+			document.getElementById("texto1").innerHTML = "Este é o primeiro texto escrito com o método innerHTML";
+			document.getElementById("texto2").innerHTML = "Este é o segundo texto escrito com o método innerHTML";
+			}	
+	</script>
+	<!--o botão para chamar a função com os métodos innerHTML-->
+	<input type="submit" class="btn" value="Clique aqui" onclick="textos()">
+		
+	</div>
+	<div>
+		<h2>Variáveis</h2>
+		<h3>No domumento HTML</h3>
+	<hr>
+	<!--local onde os valores serão exibidos-->
+	<p id="valores" style="color:red; font-weight:bold;"></p>
+	<p id="valores1"></p>
+	<p id="valores2"></p>
+	<p id="valores3"></p>
+	<p id="valores4"></p>
+	<p id="valores5"></p>
+	<hr>
+	<!--script com variáveis e métodos-->
+	<script>
+		var x, y, a; //declarações das nossas variáveis
+		x = 128; //atribuição de valores às variáveis declaradas
+		y = 34.5; 
+		a = "Ana";
+		document.getElementById("valores").innerHTML = "Os valores x=128 e y=34,4 somados, subtraidos, multiplicados e dividos:";
+		document.getElementById("valores1").innerHTML = x + y;
+		document.getElementById("valores2").innerHTML = x - y;
+		document.getElementById("valores3").innerHTML = x * y;
+		document.getElementById("valores4").innerHTML = x / y;
+		document.getElementById("valores5").innerHTML = a;
+	</script>
+	
+	</div>
+	<div>
+		<h2>Variáveis - Exemplo 2</h2>
+		<h3>No domumento HTML</h3>
+	<hr>
+	<!--Local do enunciado do cálculo-->
+	<div  style="color:red; font-weight:bold;">
+	Dados os valores de:
+	<ul>
+		<li>a = 456</li>
+		<li>b = 789.67</li>
+		<li>c = 2</li>
+	</ul>
+	<p>Calcule: ((a + b) * c) - (a - c)) / c</p>
+	
+	<hr>
+	O resultado é:
+	</div>
+	<!--local onde os valores serão exibidos-->
+	<p id="calculo"></p>
+	<!--script com variável e com métodos-->
+	<script>
+		var a,b,c;
+		a = 456;
+		b = 789.67;
+		c = 2;
+		document.getElementById("calculo").innerHTML = ((a + b) * c) - (a - c) / c;	
+	</script>
+	
+	
+	
+	
+	</section>
+	
+</body>
+</html>

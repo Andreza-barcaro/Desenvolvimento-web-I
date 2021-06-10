@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Js</title>
+<link href="css/bootstrap-reboot.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<section class="container">
+	<h1>JavaScript</h1>
+<hr>
+	<div name="exe1">
+		<h2>Exemplo 1 - Caixa de Alerta</h2>
+		<input type="submit" class="btn" value="Abrir Caixa de Alerta" onclick="abrir()">
+		
+		<script>
+			function abrir(){
+			alert("Oiiiii");
+			}
+		</script>
+	</div>
+	<div name="exe2" style="padding-top:2%;">
+		<h2>Exemplo 2 - Escrever no Documento</h2>
+			<script type="text/javascript">
+				<!--método de escrita no documento-->
+				document.write("Texto escrito por um método!");
+			</script>
+	</div>
+	<div name="exe3" style="padding-top:2%;">
+		<h2>Exemplo 3 - Escrever no Documento</h2>
+		<p id="demo1" style="padding-top:1%;"></p>
+		
+					<p id="demo1"></p>
+			<p id="demo2"></p>
+
+			<script>
+			function minhaFuncao() {
+			  document.getElementById("demo1").innerHTML = "Boa Noite, amigos!";
+			  document.getElementById("demo2").innerHTML = "Como vocês estão?";
+			}
+			</script>
+			
+			<input type="submit" onclick="minhaFuncao()" value="Clique aqui">
+	</div>
+	
+	
+	</section>
+</body>
+</html>
