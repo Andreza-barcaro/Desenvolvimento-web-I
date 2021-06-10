@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Js</title>
+<link href="css/bootstrap-reboot.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-grid.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="container">
+	<h1>Funções de JavaScript</h1>
+		<hr>
+		<h2>Exemplo 1</h2>
+		<p>Esta função faz o seguinte cálculo com os parâmetros</p>
+		
+		<div>
+			
+				var x = myFunction(4, 3);<br>
+				document.getElementById("claculo").innerHTML = x;<br>
+				function myFunction(a, b) {<br>
+				  return a * b;<br>
+				}<br>
+			
+		</div>
+		<p id="calculo" style="font-size:34px; font-weight:bold; color:red;"></p>
+
+		<script>
+		var x = minhaFuncao(24, 3);
+		document.getElementById("calculo").innerHTML = x;
+
+		function minhaFuncao(a, b) {
+		  return a * b;
+		}
+		</script>
+		<hr>
+		<h2>Exemplo 2</h2>
+		<p>Esta função faz obtém o nome digitado e retorna na caixa alerta</p>
+		function mensagem() {<br>
+		var valorNome = document.getElementById("idNome").value;<br>
+		alert("Bem-vindo, " + valorNome);<br>
+		document.getElementById("idNomeDigitado").value = document.getElementById("idNome").value;<br>		
+		document.getElementById("mostraValor").innerHTML = "Muito bem, " + valorNome + " !"; <br>
+		}<br>
+		<div style="padding-top:2%; width:50%;">
+		<form name="teste" method="get">
+				<input type="text" name="nome" id="idNome" class="form-control"><br>
+				<input type="text" name="nomeDigitado" id="idNomeDigitado" class="form-control">
+				<br>				
+				<input type="submit" name="botao" id="idBotao" onclick="mensagem();" value="Clique Aqui">					
+				<p><span id="mostraValor"></span></p>
+		</form>
+		
+		<script>
+		function mensagem() {
+		var valorNome = document.getElementById("idNome").value;
+		// Exibir mensagem em caixa de alerta:
+		alert("Bem-vindo, " + valorNome);
+		// Copiar valor de uma caixa de texto para outra:
+		document.getElementById("idNomeDigitado").value = document.getElementById("idNome").value;
+		// Escrever na página (usando conteiner span):
+		document.getElementById("mostraValor").innerHTML = "Muito bem, " + valorNome + " !"; 
+		}
+		</script>
+		</div>
+		<hr>
+		
+		<div style="padding-top:2%; width:50%;">
+		<h2>Eventos</h2>
+		<p id="data" style="font-size:34px; font-weight:bold; color:red;"></p>
+			<input type="submit" onclick="document.getElementById('data').innerHTML = Date()" value="Qual a data e a hora?" class="btn btn-primary">
+			<br><br>
+			<input type="submit" onmouseover="document.getElementById('data').innerHTML = Date()" value="Qual a data e a hora?" class="btn btn-secondary" >
+
+		</div>
+		<hr>
+		
+		
+		<div style="padding-top:2%; width:50%;">
+		<h2>Eventos</h2>
+		
+		<input type="submit" class="btn btn-secondary" onclick="trocarFundo()" value="Trocar cor de fundo">
+    
+	<script>
+      function rand(number) {
+        return Math.floor(Math.random()* number);
+      }
+
+      function trocarFundo() {
+        const corRand = 'rgb(' + rand(255) + ',' + rand(255) + ',' + rand(255) + ')';
+        document.body.style.backgroundColor = corRand;
+      }
+    </script>		
+		</div>
+		
+	<div style="padding:2%; width:50%;">
+		<h2>Eventos</h2>
+		
+				<input type="submit" onmouseover="document.getElementById('minhaFoto').src='img/elvira1.jpg'" value="Voltar original" style="width:100%;">
+					
+							
+				<img id="minhaFoto" class="card-img" src="img/elvira1.jpg" style="width:100%; padding:2%;">
+					
+				
+				
+				<input type="submit" onmouseover="document.getElementById('minhaFoto').src='img/elvira2.jpg'" value="Tons de sépia" style="width:100%;">
+	</div>	
+		
+
+</section>
+
+<footer style="height:100px;">
+<hr>
+<hr>
+
+By Cistina Jung</footer>
+</body>
+</html>
