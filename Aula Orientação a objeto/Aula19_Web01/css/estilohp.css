@@ -1,0 +1,57 @@
+
+body {
+	background-image:url(https://images5.alphacoders.com/104/1044065.jpg);
+	font-family: 'Niconne', cursive;
+	font-size:14px;
+	text-align:justify;	
+}
+
+.titulo {
+	font-family: 'Piedra', cursive;
+	font-size:48px;
+	padding:2%;
+}
+
+header {
+	width:100%;
+	height:auto;
+}
+
+article {
+	width:100%;
+	background-color:#fff;
+}
+
+.barra-cor {
+	background-color:#778899;
+	font-size:16px;
+	color:#fff;
+}
+
+footer {
+	background-color:#778899;
+	clear:both;
+	width:100%;
+	height:auto;
+}
+
+.rodape {
+	padding:2%;
+	color:#fff;
+	text-align:left;
+}
+
+.deslocamento {
+	padding:2%;
+}
+
+.texto-card {
+	font-family: 'Piedra', cursive;
+	font-size:18px;
+}
+	
+	
+	
+	
+	
+	

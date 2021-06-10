@@ -1,0 +1,53 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	background-color:#000;
+}
+
+header {
+	background-image:url(https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABUWliHi71ZB62i_NGqvn1jZkT52K6SuIR1uSk6cZ_3Ahuj5_5GVZ0wpFl17mozz67lqViJJKjvAOfRfdJOJKPkJVKfxd.jpg?r=2d6);
+	width:100%;
+	height:500px;
+	
+}
+
+.barras {
+	width:100%;
+	height:auto;
+	background-color:#FFC0CB;
+	color:#fff;
+}
+
+.texto-barra {
+	padding:2%;
+	font-weight:bold;
+	font-size:18px;
+}
+
+article {
+	background-color:#fff;
+	color:peach;
+	
+}
+
+.titulo {
+	padding:2%;
+	font-size:32px;
+	font-weight:bold;
+}
+
+.deslocamento {
+	padding:2%;
+}
+	
+.texto-lado {
+	padding:2%;
+	text-align:justify;
+	color:#000;
+}
+
+.subtitulo {
+	padding:3%;
+	font-size:20px;
+	font-weight:bold:
+}
